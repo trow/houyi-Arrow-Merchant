@@ -1,0 +1,7 @@
+IF
+Global("P_HOUYIExists","AR0706",0)
+THEN
+RESPONSE #100
+SetGlobal("P_HOUYIExists","AR0706",1)
+CreateCreature("P_HOUYI",[400.500],5)
+END

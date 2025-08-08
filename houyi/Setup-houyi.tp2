@@ -1,0 +1,146 @@
+BACKUP ~houyi\back~
+AUTHOR ~lighting_pig@sina.com.cn~
+
+LANGUAGE ~Chinese(Simplified)~ ~chinese~ ~houyi\language\chinese\chinese.tra~
+
+BEGIN @1
+
+COMPILE ~houyi\p_houyi.d~
+USING ~~
+
+COPY	~houyi\ar_bowaf.itm~         ~override\ar_bowaf.itm~  //阿尔孚琳的荣耀+5
+	SAY NAME2 @102
+        SAY DESC  @103
+
+COPY	~houyi\arrow+5.itm~         ~override\arrow+5.itm~  //箭+5
+	SAY NAME2 @100 
+        SAY DESC @101
+
+COPY	~houyi\ar_qbt.itm~         ~override\ar_qbt.itm~  //丘比特的神箭+2
+	SAY NAME2 @104
+        SAY DESC @105
+
+COPY	~houyi\ar_hepin.itm~         ~override\ar_hepin.itm~  //和平之箭+4
+	SAY NAME2 @106
+        SAY DESC @107
+
+COPY	~houyi\ar_blind.itm~         ~override\ar_blind.itm~  //目盲之箭+4
+	SAY NAME2 @108
+        SAY DESC  @109
+
+COPY	~houyi\ar_zense.itm~         ~override\ar_zense.itm~  //震慑之箭
+	SAY NAME2 @110
+        SAY DESC  @111
+
+COPY	~houyi\ar_kl.itm~         ~override\ar_kl.itm~  //狂乱魔法之箭+2
+	SAY NAME2 @112
+        SAY DESC  @113
+
+COPY	~houyi\ar_web.itm~         ~override\ar_web.itm~  //蛛网之箭
+	SAY NAME2 @114
+        SAY DESC  @115
+
+
+COPY	~houyi\ar_mig.itm~         ~override\ar_mig.itm~  //迷宫之箭+4
+	SAY NAME2 @116
+        SAY DESC  @117
+
+
+COPY	~houyi\ar_sppm.itm~         ~override\ar_sppm.itm~  //高等破魔之箭+4
+	SAY NAME2 @118
+        SAY DESC  @119
+
+COPY	~houyi\ar_bian.itm~         ~override\ar_bian.itm~  //变形之箭+2
+	SAY NAME2 @120
+        SAY DESC @121
+
+COPY	~houyi\ar_gjbz.itm~         ~override\ar_gjbz.itm~  //高级爆炸之箭+4
+	SAY NAME2 @122
+        SAY DESC  @123
+
+COPY	~houyi\ar_gjbzs.itm~         ~override\ar_gjbzs.itm~  //高级爆炸酸箭+4
+	SAY NAME2 @124
+        SAY DESC  @125
+
+COPY	~houyi\ar_gjbzd.itm~         ~override\ar_gjbzd.itm~  //高级爆炸电箭+4
+	SAY NAME2 @126
+        SAY DESC  @127
+
+COPY	~houyi\ar_bzdu.itm~         ~override\ar_bzdu.itm~  //高级爆炸毒箭+4
+	SAY NAME2 @128
+        SAY DESC  @129
+
+COPY	~houyi\ar_bzen.itm~         ~override\ar_bzen.itm~  //高级爆炸能量箭+4
+	SAY NAME2 @130
+        SAY DESC  @131
+
+
+COPY	~houyi\arow_beh.eff~         ~override\arow_beh.eff~
+COPY	~houyi\arow_beh.cre~         ~override\arow_beh.cre~
+COPY	~houyi\arow_beh.itm~         ~override\arow_beh.itm~  
+        SAY NAME2 @132
+        SAY DESC  @133
+
+COPY	~houyi\arow_dam.eff~         ~override\arow_dam.eff~
+COPY	~houyi\arow_dam.cre~         ~override\arow_dam.cre~
+COPY	~houyi\arow_dam.itm~         ~override\arow_dam.itm~  
+        SAY NAME2 @134
+        SAY DESC  @135        
+
+COPY	~houyi\arow_swo.eff~         ~override\arow_swo.eff~
+COPY	~houyi\arow_swo.cre~         ~override\arow_swo.cre~
+COPY	~houyi\arow_swo.itm~         ~override\arow_swo.itm~  
+        SAY NAME2 @136
+        SAY DESC  @137                
+
+COPY	~houyi\arow_sai.eff~         ~override\arow_sai.eff~
+COPY	~houyi\arow_sai.cre~         ~override\arow_sai.cre~
+COPY	~houyi\arow_sai.itm~         ~override\arow_sai.itm~  
+        SAY NAME2 @138
+        SAY DESC  @139      
+
+COPY	~houyi\ar_demg.eff~         ~override\ar_demg.eff~
+COPY	~houyi\ar_demg.cre~         ~override\ar_demg.cre~
+COPY	~houyi\ar_demg.itm~         ~override\ar_demg.itm~  
+        SAY NAME2 @140
+        SAY DESC  @141
+
+COPY	~houyi\ar_lrv.eff~         ~override\ar_lrv.eff~
+COPY	~houyi\ar_lrv.cre~         ~override\ar_lrv.cre~
+COPY	~houyi\ar_lrv.itm~         ~override\ar_lrv.itm~  
+        SAY NAME2 @142
+        SAY DESC  @143
+      
+COPY	~houyi\ar_bowwf.itm~         ~override\ar_bowwf.itm~  //winforce
+	SAY NAME2 @144
+        SAY DESC  @145
+
+COPY	~houyi\ar_zhuge.itm~         ~override\ar_zhuge.itm~  //诸葛连弩+5
+	SAY NAME2 @146
+        SAY DESC  @147
+
+COPY	~houyi\ar_bobz.itm~         ~override\ar_bobz.itm~  //高级爆炸之矢+4
+	SAY NAME2 @148
+        SAY DESC  @149
+
+COPY	~houyi\ar_stbz.itm~         ~override\ar_stbz.itm~  //高级爆炸之弹丸+4
+	SAY NAME2 @150
+        SAY DESC  @151
+
+COPY	~houyi\ar_bian2.itm~         ~override\ar_bian2.itm~  //变形矢
+	SAY NAME2 @152
+        SAY DESC  @153
+
+COPY	~houyi\ar_pt.sto~         ~override\ar_pt.sto~ 
+        SAY NAME2 @2
+
+COPY	~houyi\ar_gj.sto~         ~override\ar_gj.sto~ 
+        SAY NAME2 @3
+
+COPY	~houyi\p_houyi.cre~         ~override\p_houyi.cre~ 
+        SAY NAME1 @4
+        SAY NAME2 @4
+
+EXTEND_BOTTOM ~AR0706.bcs~ ~houyi\p_houyiArea.baf~
+
+EXTEND_BOTTOM ~AR4500.bcs~ ~houyi\p_houyitob.baf~
